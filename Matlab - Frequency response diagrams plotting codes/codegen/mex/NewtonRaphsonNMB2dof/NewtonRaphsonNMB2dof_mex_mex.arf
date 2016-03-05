@@ -1,0 +1,11 @@
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwblas.lib
+libmwmathutil.lib
+/export:mexFunction
+/export:emlrtMexFcnProperties
+/export:NewtonRaphsonNMB2dof
+/export:NewtonRaphsonNMB2dof_initialize
+/export:NewtonRaphsonNMB2dof_terminate
+/export:NewtonRaphsonNMB2dof_atexit

@@ -1,0 +1,880 @@
+----------------------------------------------------------------
+Numerical algorithm for nonlinear normal mode (NNM) computation 
+Version 1.1 (2011)
+ 
+Maxime Peeters (m.peeters@ulg.ac.be)
+----------------------------------------------------------------
+ 
+System:
+
+sys = 
+
+         Kl: [2x2 double]
+         Ml: [2x2 double]
+         nl: [1x1 NL_SPRING]
+       norm: 5.000000000000000e-004
+     vitfix: [1 2]
+     IGcont: []
+    NumMeth: 'NEWMARK'
+        TFS: 200
+      invMl: [2x2 double]
+         SA: 1
+
+ 
+      START NNM COMPUTATION with the following parameters:    
+___________________________________________________________
+
+prec =
+
+    1.000000000000000e-006
+
+
+hmax =
+
+    10
+
+
+hmin =
+
+    1.000000000000000e-006
+
+
+itopt =
+
+     3
+
+
+itmax =
+
+    10
+
+
+betamax =
+
+    90
+
+
+betamin =
+
+     0
+
+
+wlimit =
+
+     []
+
+
+h =
+
+   0.01000000000000
+
+
+mode =
+
+     1
+
+
+nintstep =
+
+   300
+
+Numerical integration: NEWMARK
+ 
+Iter         H                Ds
+0           1.1479e-007
+----- cvg -----
+Pulsation (rad/s) 1
+Iter         H                Ds
+0           0.0043782
+1           0.0013342           0.0062689
+2           6.9172e-005           0.0013879
+3           2.1329e-007           7.5662e-005
+Pulsation (rad/s) 0.99996867
+------------------------- cvg ------------------------------
+The stepsize has been increased
+Iter         H                Ds
+0           3.4179e-005
+1           3.4982e-009           2.9459e-005
+Pulsation (rad/s) 0.99998332
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00013635
+1           1.7241e-008           0.00011768
+Pulsation (rad/s) 1.0000406
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0005436
+1           1.2379e-007           0.00046893
+Pulsation (rad/s) 1.0002674
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0021532
+1           1.3799e-006           0.001848
+2           1.3448e-010           1.2178e-006
+Pulsation (rad/s) 1.0011642
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0038133
+1           4.4225e-006           0.0031409
+2           4.3284e-010           3.8632e-006
+Pulsation (rad/s) 1.0032496
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0064452
+1           1.2241e-005           0.005068
+2           1.2176e-009           1.0493e-005
+Pulsation (rad/s) 1.0074929
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.010202
+1           2.787e-005           0.0074936
+2           2.8881e-009           2.3232e-005
+Pulsation (rad/s) 1.0153833
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.014707
+1           4.7172e-005           0.0097593
+2           5.2365e-009           3.8319e-005
+Pulsation (rad/s) 1.0289242
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.019297
+1           6.1888e-005           0.011501
+2           7.6487e-009           5.0093e-005
+Pulsation (rad/s) 1.0503248
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.026889
+1           0.00014583           0.01722
+2           2.0931e-008           0.00011252
+Pulsation (rad/s) 1.0811727
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.047351
+1           0.00046258           0.034028
+2           9.1769e-008           0.000338
+Pulsation (rad/s) 1.1208897
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.079553
+1           0.00085822           0.055653
+2           2.005e-007           0.00059364
+Pulsation (rad/s) 1.1654083
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.10391
+1           0.0008717           0.067348
+2           2.8356e-007           0.00082036
+Pulsation (rad/s) 1.2088591
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.10689
+1           0.0017634           0.065228
+2           1.4404e-006           0.0019659
+3           1.7386e-010           1.6683e-006
+Pulsation (rad/s) 1.2472702
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.055336
+1           0.0010485           0.034228
+2           8.9496e-007           0.0012521
+Pulsation (rad/s) 1.2728023
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.052706
+1           0.0013123           0.033862
+2           2.2966e-006           0.0019267
+3           4.9791e-011           3.5637e-006
+Pulsation (rad/s) 1.2959941
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.027675
+1           0.00049997           0.019495
+2           5.0919e-007           0.00093486
+Pulsation (rad/s) 1.3121747
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.027656
+1           0.00054652           0.020763
+2           9.4607e-007           0.00141
+Pulsation (rad/s) 1.3276094
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.026869
+1           0.00053406           0.021396
+2           1.3939e-006           0.0019138
+3           3.6359e-011           5.2232e-006
+Pulsation (rad/s) 1.3420252
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.015362
+1           0.00021293           0.013604
+2           2.9005e-007           0.000868
+Pulsation (rad/s) 1.3524329
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.018157
+1           0.00034496           0.01729
+2           7.4558e-007           0.001242
+Pulsation (rad/s) 1.3627136
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.024151
+1           0.00068163           0.024435
+2           2.1478e-006           0.0017088
+3           1.9612e-010           5.4999e-006
+Pulsation (rad/s) 1.3726538
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.019365
+1           0.00043816           0.02097
+2           6.4766e-007           0.00084532
+Pulsation (rad/s) 1.3800007
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.023747
+1           4.2175e-005           0.030906
+2           2.8012e-008           0.00013211
+Pulsation (rad/s) 1.3873522
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.010408
+1           2.8903e-005           0.028596
+2           1.4213e-008           0.00037705
+Pulsation (rad/s) 1.3942454
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0032718
+1           3.208e-005           0.017269
+2           2.8696e-008           0.00030002
+Pulsation (rad/s) 1.4000444
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.43088
+1           0.22891           1.2114
+2           0.12993           0.48969
+3           0.10832           0.34596
+4           0.10294           0.25082
+5           0.10089           0.20132
+6           0.09956           0.19554
+7           0.098335           0.22302
+8           0.097357           0.24434
+9           0.097084           0.15461
+10           0.097072           0.032403
+11           0.097072           0.0037936
+Pulsation (rad/s) 1.3945727
+it > it_max
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.069179
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4049876
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0067611
+1           3.3741e-005           0.018573
+2           9.4751e-008           5.6023e-005
+Pulsation (rad/s) 1.4017104
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.12849
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4018274
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.01899
+1           0.0058113           0.063364
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4040901
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0033477
+1           2.742e-005           0.008524
+2           3.7302e-008           4.5109e-005
+Pulsation (rad/s) 1.4024324
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.022406
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4055243
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0043415
+1           0.00021344           0.01396
+2           8.2086e-007           0.00069135
+Pulsation (rad/s) 1.4031257
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.048984
+1           0.034435           0.099465
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4059018
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0097823
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4131259
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0021575
+1           0.00030223           0.012578
+2           1.2515e-005           0.002382
+3           5.7839e-008           0.00010803
+Pulsation (rad/s) 1.4035838
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.024281
+1           0.010832           0.058478
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4025335
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0052957
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4035597
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.001233
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4042654
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00029862
+1           3.2759e-005           0.0040747
+2           7.7172e-007           0.00056208
+Pulsation (rad/s) 1.4037266
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0021041
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.402929
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00050606
+1           0.00017967           0.016308
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4040193
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00012537
+1           4.3426e-006           0.0025473
+2           1.9379e-008           9.3118e-005
+Pulsation (rad/s) 1.4038028
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00029523
+1           1.9913e-006           0.0041137
+2           1.7817e-009           2.9156e-005
+Pulsation (rad/s) 1.4038912
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00026302
+1           6.9286e-006           0.0020013
+2           7.4241e-009           5.6773e-005
+Pulsation (rad/s) 1.4039646
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00023852
+1           4.5935e-006           0.0013375
+2           5.6568e-009           2.7357e-005
+Pulsation (rad/s) 1.4040348
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00024972
+1           3.6257e-006           0.001093
+2           4.1327e-009           1.6716e-005
+Pulsation (rad/s) 1.4041064
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00028579
+1           3.4098e-006           0.0010012
+2           3.3574e-009           1.2535e-005
+Pulsation (rad/s) 1.4041823
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00034562
+1           3.6294e-006           0.00098351
+2           3.0211e-009           1.0821e-005
+Pulsation (rad/s) 1.4042643
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00043341
+1           4.2082e-006           0.0010112
+2           2.9361e-009           1.0284e-005
+Pulsation (rad/s) 1.404354
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00055727
+1           5.1798e-006           0.0010724
+2           3.0129e-009           1.0445e-005
+Pulsation (rad/s) 1.4044531
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00072945
+1           6.6498e-006           0.0011623
+2           3.2065e-009           1.111e-005
+Pulsation (rad/s) 1.4045629
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00096738
+1           8.7924e-006           0.0012794
+2           3.4896e-009           1.2206e-005
+Pulsation (rad/s) 1.4046848
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0012952
+1           1.1857e-005           0.0014242
+2           3.8347e-009           1.3702e-005
+Pulsation (rad/s) 1.4048204
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.001746
+1           1.6179e-005           0.0015988
+2           4.2088e-009           1.5587e-005
+Pulsation (rad/s) 1.4049708
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0023645
+1           2.2197e-005           0.001806
+2           4.5674e-009           1.7858e-005
+Pulsation (rad/s) 1.4051374
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0032103
+1           3.0382e-005           0.0020501
+2           4.8565e-009           2.0459e-005
+Pulsation (rad/s) 1.4053212
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0043613
+1           4.1195e-005           0.0023368
+2           5.0297e-009           2.3299e-005
+Pulsation (rad/s) 1.4055229
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0059178
+1           5.4883e-005           0.0026742
+2           5.0969e-009           2.6201e-005
+Pulsation (rad/s) 1.4057428
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0080076
+1           7.1191e-005           0.0030742
+2           5.1623e-009           2.8895e-005
+Pulsation (rad/s) 1.4059809
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.010794
+1           8.882e-005           0.0035553
+2           4.8579e-009           3.096e-005
+Pulsation (rad/s) 1.4062358
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.014494
+1           0.00010511           0.0041483
+2           6.2944e-009           3.1891e-005
+Pulsation (rad/s) 1.4065055
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.019431
+1           0.00011553           0.0049072
+2           7.8915e-009           3.1061e-005
+Pulsation (rad/s) 1.4067859
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.026157
+1           0.00011326           0.005932
+2           1.0058e-008           2.7641e-005
+Pulsation (rad/s) 1.4070706
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.035784
+1           8.7655e-005           0.0074158
+2           1.2542e-008           2.0281e-005
+Pulsation (rad/s) 1.407349
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.050823
+1           1.6139e-005           0.0097527
+2           1.5289e-008           5.8137e-006
+Pulsation (rad/s) 1.4076043
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.077769
+1           0.00017322           0.013802
+2           1.912e-008           2.7479e-005
+Pulsation (rad/s) 1.4078067
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.13057
+1           0.0006425           0.02057
+2           1.8412e-008           9.5751e-005
+Pulsation (rad/s) 1.4079008
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.16067
+1           0.00031292           0.020489
+2           8.4598e-008           4.611e-005
+Pulsation (rad/s) 1.4078369
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.26562
+1           0.00016116           0.02285
+2           7.8262e-007           3.8426e-005
+Pulsation (rad/s) 1.407618
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.32811
+1           0.0011872           0.027735
+2           3.4013e-006           0.00029001
+3           2.8961e-009           4.3917e-007
+Pulsation (rad/s) 1.407221
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.16083
+1           0.001327           0.037738
+2           4.2713e-007           0.00039951
+Pulsation (rad/s) 1.4065878
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.1021
+1           0.0017434           0.058704
+2           4.5487e-007           0.0011444
+Pulsation (rad/s) 1.4055873
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.082397
+1           0.0033072           0.11487
+2           7.1522e-006           0.0052495
+3           9.7134e-010           1.146e-005
+Pulsation (rad/s) 1.4038563
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.08652
+1           0.014643           0.39642
+2           0.00081681           0.10174
+3           2.9222e-006           0.0063802
+4           5.9008e-010           2.317e-005
+Pulsation (rad/s) 1.3992574
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been decreased
+Iter         H                Ds
+0           0.18745
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.4289167
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.061391
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.3628213
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.017684
+1           0.0042402           0.30696
+2           0.00075418           0.13978
+3           5.3541e-005           0.03871
+4           3.0793e-007           0.0032236
+Pulsation (rad/s) 1.3947799
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been decreased
+Iter         H                Ds
+0           0.058003
+1           0.0071645           2.8995
+2           7.1689e-005           0.24937
+3           7.174e-009           0.0027817
+Pulsation (rad/s) 1.3823329
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.065081
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.3793377
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.015674
+not convergent, error is not decreasing
+Pulsation (rad/s) 1.3744252
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0037125
+1           0.00039783           0.16142
+2           7.7113e-006           0.022068
+3           5.4892e-009           0.00044514
+Pulsation (rad/s) 1.3801494
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.0059948
+1           9.6728e-005           0.14444
+2           1.2935e-008           0.0024254
+Pulsation (rad/s) 1.3789225
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0043007
+1           9.1369e-005           0.064293
+2           3.2973e-008           0.0014587
+Pulsation (rad/s) 1.3782155
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0035308
+1           4.2162e-005           0.042872
+2           4.1838e-009           0.0005419
+Pulsation (rad/s) 1.3777842
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0032746
+1           2.1742e-005           0.034875
+2           3.2438e-009           0.00024495
+Pulsation (rad/s) 1.3775855
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0031716
+1           1.1491e-005           0.031655
+2           2.4664e-009           0.00011638
+Pulsation (rad/s) 1.3776291
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0030315
+1           7.1551e-006           0.030699
+2           1.9116e-009           4.699e-005
+Pulsation (rad/s) 1.3779467
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0026915
+1           7.4035e-006           0.031058
+2           1.6556e-009           1.4794e-005
+Pulsation (rad/s) 1.3785796
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0020153
+1           8.0853e-006           0.032291
+2           1.6072e-009           5.4975e-005
+Pulsation (rad/s) 1.3795676
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0013185
+1           9.0737e-006           0.034222
+2           1.0295e-009           0.00019952
+Pulsation (rad/s) 1.3809394
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.002605
+1           2.0321e-005           0.037672
+2           2.4955e-009           0.00029477
+Pulsation (rad/s) 1.3827022
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0054502
+1           6.4446e-005           0.042064
+2           6.7956e-009           0.00048972
+Pulsation (rad/s) 1.3848356
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0088125
+1           0.00014596           0.048674
+2           3.2772e-008           0.00077664
+Pulsation (rad/s) 1.3872907
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0077708
+1           0.00013128           0.037959
+2           3.1445e-008           0.00061057
+Pulsation (rad/s) 1.389481
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0062319
+1           0.00010871           0.029551
+2           2.8077e-008           0.00048651
+Pulsation (rad/s) 1.3913515
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0052026
+1           9.6359e-005           0.024518
+2           2.8099e-008           0.00042561
+Pulsation (rad/s) 1.3929764
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0045112
+1           8.6792e-005           0.020819
+2           2.7316e-008           0.00037375
+Pulsation (rad/s) 1.3944097
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0040276
+1           7.7096e-005           0.017643
+2           2.4109e-008           0.00031456
+Pulsation (rad/s) 1.3956903
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0036588
+1           6.6242e-005           0.014733
+2           1.8831e-008           0.00024856
+Pulsation (rad/s) 1.3968461
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0033433
+1           5.4388e-005           0.012087
+2           1.245e-008           0.00018363
+Pulsation (rad/s) 1.3978973
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0030475
+1           4.2383e-005           0.0097822
+2           9.3152e-009           0.00012744
+Pulsation (rad/s) 1.3988591
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0027611
+1           3.1417e-005           0.0078792
+2           4.3769e-009           8.4268e-005
+Pulsation (rad/s) 1.3997429
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0024891
+1           2.2233e-005           0.0063909
+2           2.3644e-009           5.3824e-005
+Pulsation (rad/s) 1.4005583
+------------------------- cvg ------------------------------
+ 
+******************   Pause continuation   ******************
+ 
+ 
+###################   Stop continuation   #####################

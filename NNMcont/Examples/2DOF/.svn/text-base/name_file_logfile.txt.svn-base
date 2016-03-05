@@ -1,0 +1,1791 @@
+----------------------------------------------------------------
+Numerical algorithm for nonlinear normal mode (NNM) computation 
+Version 1.1 (2011)
+ 
+Maxime Peeters (m.peeters@ulg.ac.be)
+----------------------------------------------------------------
+ 
+System:
+
+sys = 
+
+       Klin: [2x2 double]
+       Mlin: [2x2 double]
+         nl: [1x1 NL_SPRING]
+       norm: 5.0000e-004
+     vitfix: [1 2]
+     IGcont: []
+    NumMeth: 'NEWMARK'
+        TFS: 100
+      invMl: [2x2 double]
+
+ 
+      START NNM COMPUTATION with the following parameters:    
+___________________________________________________________
+
+prec =
+
+  1.0000e-006
+
+
+hmax =
+
+    10
+
+
+hmin =
+
+  1.0000e-006
+
+
+itopt =
+
+     3
+
+
+itmax =
+
+    10
+
+
+betamax =
+
+    90
+
+
+betamin =
+
+     0
+
+
+wlimit =
+
+     []
+
+
+h =
+
+    0.0100
+
+
+mode =
+
+     1
+
+
+nintstep =
+
+   100
+
+Numerical integration: NEWMARK
+ 
+Iter         H                Ds
+0           1.2916e-007
+----- cvg -----
+Pulsation (rad/s) 2
+Iter         H                Ds
+0           0.0048358
+1           0.0020478           0.0077373
+2           0.00016702           0.0021137
+3           1.3434e-006           0.00018621
+4           4.1649e-010           1.5094e-006
+Pulsation (rad/s) 1.9998466
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           1.5343e-005
+1           2.3412e-009           9.4278e-006
+Pulsation (rad/s) 1.9998689
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           6.0124e-005
+1           9.5278e-009           3.7692e-005
+Pulsation (rad/s) 1.9999495
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00023755
+1           4.0716e-008           0.00015052
+Pulsation (rad/s) 2.0002544
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00094162
+1           2.0625e-007           0.00059843
+Pulsation (rad/s) 2.001436
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0037122
+1           1.5533e-006           0.0023386
+2           3.5068e-010           1.4011e-006
+Pulsation (rad/s) 2.0060402
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0067475
+1           4.2298e-006           0.0038905
+2           9.3485e-010           3.663e-006
+Pulsation (rad/s) 2.0165545
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.011489
+1           1.0098e-005           0.0061033
+2           2.2534e-009           8.5154e-006
+Pulsation (rad/s) 2.0373089
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.01822
+1           2.0264e-005           0.0092646
+2           5.0109e-009           1.7512e-005
+Pulsation (rad/s) 2.0738634
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.02661
+1           5.018e-005           0.01544
+2           1.3103e-008           4.0017e-005
+Pulsation (rad/s) 2.1310033
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.035767
+1           0.00020016           0.027877
+2           4.0221e-008           0.0001357
+Pulsation (rad/s) 2.2086266
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.043747
+1           0.00054846           0.043297
+2           8.7454e-008           0.00041738
+Pulsation (rad/s) 2.2986045
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.046756
+1           0.00090303           0.052643
+2           1.1398e-007           0.00086868
+Pulsation (rad/s) 2.3885031
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.043346
+1           0.0010115           0.053194
+2           9.7961e-008           0.0012487
+Pulsation (rad/s) 2.4693064
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.036518
+1           0.00089328           0.049121
+2           1.1643e-007           0.0014429
+Pulsation (rad/s) 2.537827
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.029534
+1           0.00068724           0.044059
+2           1.211e-007           0.0015067
+Pulsation (rad/s) 2.5944854
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.023845
+1           0.00048211           0.039279
+2           7.467e-008           0.0014653
+Pulsation (rad/s) 2.6410688
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.019541
+1           0.00032245           0.035205
+2           2.9925e-008           0.00131
+Pulsation (rad/s) 2.6796243
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.016138
+1           0.00023415           0.033672
+2           2.1619e-008           0.0011653
+Pulsation (rad/s) 2.7120147
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.013166
+1           0.00017602           0.039959
+2           2.5511e-008           0.00095305
+Pulsation (rad/s) 2.7396618
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.011205
+1           0.0001671           0.057317
+2           1.4996e-007           0.00053746
+Pulsation (rad/s) 2.7634106
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0063987
+1           0.00013495           0.044466
+2           6.0478e-008           0.00086835
+Pulsation (rad/s) 2.7801357
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.0069312
+1           4.936e-005           0.018157
+2           4.7312e-008           0.00026568
+Pulsation (rad/s) 2.7926924
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+Iter         H                Ds
+0           0.028816
+1           0.0036815           0.094229
+2           0.00013787           0.013977
+3           4.8749e-007           0.000593
+Pulsation (rad/s) 2.8054066
+------------------------- cvg ------------------------------
+Iter         H                Ds
+0           0.41135
+1           0.23488           0.76537
+2           0.22369           0.018859
+3           0.22365           0.0055462
+4           0.22365           0.0004976
+5           0.22365           4.4301e-005
+6           0.22365           4.3461e-006
+7           0.22365           1.5983e-006
+8           0.22365           1.5209e-006
+9           0.22365           1.517e-006
+10           0.22365           1.5167e-006
+11           0.22365           1.5166e-006
+Pulsation (rad/s) 2.8089961
+it > it_max
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.41272
+1           0.13291           0.63087
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.816179
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.12322
+1           0.059723           0.18958
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.7847449
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.026546
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8050478
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0059011
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8084529
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0013849
+1           7.7926e-005           0.0088545
+2           4.9498e-007           0.00054928
+Pulsation (rad/s) 2.8063446
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.008907
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8058111
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.0020933
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8080833
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00050942
+1           3.4595e-005           0.0054525
+2           3.4398e-007           0.00042103
+Pulsation (rad/s) 2.8068669
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0031311
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8064588
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00075876
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8079049
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00018848
+1           1.4809e-005           0.0035246
+2           2.2019e-007           0.00032186
+Pulsation (rad/s) 2.8071705
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0010938
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8065627
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           0.00027033
+1           0.00021106           0.015481
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8073423
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           6.8261e-005
+1           4.1803e-006           0.0020959
+2           5.583e-008           0.00014248
+Pulsation (rad/s) 2.8073395
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00026776
+1           8.1715e-005           0.017125
+2           4.7763e-005           0.012838
+not convergent, error is not decreasing
+Pulsation (rad/s) 2.8073769
+The stepsize has been reduced (no cvg at the previous step)
+Iter         H                Ds
+0           6.7501e-005
+1           2.4551e-006           0.0028037
+2           1.9201e-008           0.00010745
+Pulsation (rad/s) 2.8074953
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00014054
+1           1.1549e-006           0.0037045
+2           3.1379e-009           3.1921e-005
+Pulsation (rad/s) 2.807663
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00012142
+1           2.5382e-006           0.0018923
+2           9.749e-009           4.2317e-005
+Pulsation (rad/s) 2.8078057
+------------------------- cvg ------------------------------
+get(gcf)
+	Alphamap = [ (1 by 64) double array]
+	CloseRequestFcn = NNMcont('quitcont')
+	Color = [0.878431 0.87451 0.890196]
+	Colormap = [ (64 by 3) double array]
+	CurrentAxes = [170.007]
+	CurrentCharacter = 
+	CurrentObject = [1]
+	CurrentPoint = [0.52691 0.046398]
+	DockControls = on
+	FileName = 
+	IntegerHandle = on
+	InvertHardcopy = on
+	KeyPressFcn = 
+	KeyReleaseFcn = 
+	MenuBar = figure
+	Name = GUI for NNM computation 
+	NextPlot = add
+	NumberTitle = off
+	PaperUnits = centimeters
+	PaperOrientation = portrait
+	PaperPosition = [0.634517 6.34517 20.3046 15.2284]
+	PaperPositionMode = manual
+	PaperSize = [20.984 29.6774]
+	PaperType = A4
+	Pointer = arrow
+	PointerShapeCData = [ (16 by 16) double array]
+	PointerShapeHotSpot = [1 1]
+	Position = [0.05 0.100586 0.9 0.799805]
+	Renderer = zbuffer
+	RendererMode = manual
+	Resize = on
+	ResizeFcn = 
+	SelectionType = normal
+	ToolBar = figure
+	Units = normalized
+	WindowButtonDownFcn = 
+	WindowButtonMotionFcn = 
+	WindowButtonUpFcn = 
+	WindowKeyPressFcn = 
+	WindowKeyReleaseFcn = 
+	WindowScrollWheelFcn = 
+	WindowStyle = normal
+	WVisual = 00 (RGB 32  GDI, Bitmap, Window)
+	WVisualMode = auto
+
+	BeingDeleted = off
+	ButtonDownFcn = 
+	Children = [ (12 by 1) double array]
+	Clipping = on
+	CreateFcn = 
+	DeleteFcn = 
+	BusyAction = queue
+	HandleVisibility = on
+	HitTest = on
+	Interruptible = on
+	Parent = [0]
+	Selected = off
+	SelectionHighlight = on
+	Tag = 
+	Type = figure
+	UIContextMenu = []
+	UserData = []
+	Visible = on
+
+get(gcf,'selection')
+{??? Error using ==> get
+Ambiguous property found.
+Object Name :  figure
+Property Name :  'selection'.
+} 
+get(gcf,'pointertype')
+{??? Error using ==> get
+There is no 'pointertype' property in the 'figure' class.
+} 
+get(gcf,'selectiontype')
+
+ans =
+
+normal
+
+qq
+
+styp =
+
+normal
+
+
+styp =
+
+normal
+
+get(gcf,'selectiontype')
+
+ans =
+
+alt
+
+set(gcf,'selectiontype')
+[ normal | open | alt | extend ]
+qq
+
+styp =
+
+normal
+
+
+styp =
+
+normal
+
+qq
+
+styp =
+
+normal
+
+
+styp =
+
+normal
+
+qq
+
+styp =
+
+normal
+
+
+styp =
+
+normal
+
+get(gcf)
+	Alphamap = [ (1 by 64) double array]
+	CloseRequestFcn = NNMcont('quitcont')
+	Color = [0.878431 0.87451 0.890196]
+	Colormap = [ (64 by 3) double array]
+	CurrentAxes = [170.007]
+	CurrentCharacter = 
+	CurrentObject = [170.007]
+	CurrentPoint = [0.192708 0.843712]
+	DockControls = on
+	FileName = 
+	IntegerHandle = on
+	InvertHardcopy = on
+	KeyPressFcn = 
+	KeyReleaseFcn = 
+	MenuBar = figure
+	Name = GUI for NNM computation 
+	NextPlot = add
+	NumberTitle = off
+	PaperUnits = centimeters
+	PaperOrientation = portrait
+	PaperPosition = [0.634517 6.34517 20.3046 15.2284]
+	PaperPositionMode = manual
+	PaperSize = [20.984 29.6774]
+	PaperType = A4
+	Pointer = arrow
+	PointerShapeCData = [ (16 by 16) double array]
+	PointerShapeHotSpot = [1 1]
+	Position = [0.0484375 0.100586 0.9 0.799805]
+	Renderer = zbuffer
+	RendererMode = manual
+	Resize = on
+	ResizeFcn = 
+	SelectionType = normal
+	ToolBar = figure
+	Units = normalized
+	WindowButtonDownFcn = 
+	WindowButtonMotionFcn = 
+	WindowButtonUpFcn = 
+	WindowKeyPressFcn = 
+	WindowKeyReleaseFcn = 
+	WindowScrollWheelFcn = 
+	WindowStyle = normal
+	WVisual = 00 (RGB 32  GDI, Bitmap, Window)
+	WVisualMode = auto
+
+	BeingDeleted = off
+	ButtonDownFcn = 
+	Children = [ (12 by 1) double array]
+	Clipping = on
+	CreateFcn = 
+	DeleteFcn = 
+	BusyAction = queue
+	HandleVisibility = on
+	HitTest = on
+	Interruptible = on
+	Parent = [0]
+	Selected = off
+	SelectionHighlight = on
+	Tag = 
+	Type = figure
+	UIContextMenu = []
+	UserData = []
+	Visible = on
+
+get(gca)
+	ActivePositionProperty = position
+	ALim = [0 1]
+	ALimMode = auto
+	AmbientLightColor = [1 1 1]
+	Box = on
+	CameraPosition = [5000 1.2 17.3205]
+	CameraPositionMode = auto
+	CameraTarget = [5000 1.2 0]
+	CameraTargetMode = auto
+	CameraUpVector = [0 1 0]
+	CameraUpVectorMode = auto
+	CameraViewAngle = [6.60861]
+	CameraViewAngleMode = auto
+	CLim = [0 1]
+	CLimMode = auto
+	Color = [1 1 1]
+	CurrentPoint = [ (2 by 3) double array]
+	ColorOrder = [ (7 by 3) double array]
+	DataAspectRatio = [16666.7 1 3.33333]
+	DataAspectRatioMode = auto
+	DrawMode = normal
+	FontAngle = normal
+	FontName = Helvetica
+	FontSize = [11]
+	FontUnits = points
+	FontWeight = normal
+	GridLineStyle = :
+	Layer = bottom
+	LineStyleOrder = -
+	LineWidth = [0.5]
+	MinorGridLineStyle = :
+	NextPlot = add
+	OuterPosition = [-0.0374194 -0.00797546 0.903226 0.981595]
+	PlotBoxAspectRatio = [1 1 1]
+	PlotBoxAspectRatioMode = auto
+	Projection = orthographic
+	Position = [0.08 0.1 0.7 0.8]
+	TickLength = [0.01 0.025]
+	TickDir = in
+	TickDirMode = auto
+	TightInset = [0.0512153 0.0634921 0.00954861 0.010989]
+	Title = [231.009]
+	Units = normalized
+	View = [0 90]
+	XColor = [0 0 0]
+	XDir = normal
+	XGrid = off
+	XLabel = [173.007]
+	XAxisLocation = bottom
+	XLim = [1e-008 10000]
+	XLimMode = auto
+	XMinorGrid = off
+	XMinorTick = on
+	XScale = log
+	XTick = [ (1 by 7) double array]
+	XTickLabel = 
+		-8
+		-6
+		-4
+		-2
+		0 
+		2 
+		4 
+	XTickLabelMode = auto
+	XTickMode = auto
+	YColor = [0 0 0]
+	YDir = normal
+	YGrid = off
+	YLabel = [174.007]
+	YAxisLocation = left
+	YLim = [0.9 1.5]
+	YLimMode = auto
+	YMinorGrid = off
+	YMinorTick = off
+	YScale = linear
+	YTick = [ (1 by 7) double array]
+	YTickLabel = 
+		0.9
+		1  
+		1.1
+		1.2
+		1.3
+		1.4
+		1.5
+	YTickLabelMode = auto
+	YTickMode = auto
+	ZColor = [0 0 0]
+	ZDir = normal
+	ZGrid = off
+	ZLabel = [232.008]
+	ZLim = [-1 1]
+	ZLimMode = auto
+	ZMinorGrid = off
+	ZMinorTick = off
+	ZScale = linear
+	ZTick = [-1 0 1]
+	ZTickLabel = 
+	ZTickLabelMode = auto
+	ZTickMode = auto
+
+	BeingDeleted = off
+	ButtonDownFcn = 
+	Children = [ (3 by 1) double array]
+	Clipping = on
+	CreateFcn = 
+	DeleteFcn = 
+	BusyAction = queue
+	HandleVisibility = on
+	HitTest = on
+	Interruptible = on
+	Parent = [1]
+	Selected = off
+	SelectionHighlight = on
+	Tag = 
+	Type = axes
+	UIContextMenu = [225.007]
+	UserData = []
+	Visible = on
+
+KbCheck 
+{??? Undefined function or variable 'KbCheck'.
+} 
+get(gcf,'keypress')
+
+ans =
+
+     ''
+
+
+get(gcf,'currentcharacter')
+
+ans =
+
+a
+
+qq
+
+styp =
+
+normal
+
+get(gcf,'selectiontype')
+
+ans =
+
+normal
+
+
+styp =
+
+normal
+
+qq
+
+styp =
+
+normal
+
+get(gcf,'selectiontype')
+
+ans =
+
+normal
+
+
+styp =
+
+normal
+
+qq
+
+styp =
+
+normal
+
+get(gcf,'selectiontype')
+
+ans =
+
+extend
+
+
+styp =
+
+normal
+
+help waitforbuttonpress
+ WAITFORBUTTONPRESS Wait for key/buttonpress over figure.
+    T = WAITFORBUTTONPRESS stops program execution until a key or
+    mouse button is pressed over a figure window.  Returns 0
+    when terminated by a mouse buttonpress, or 1 when terminated
+    by a keypress.  Additional information about the terminating
+    event is available from the current figure.
+ 
+    Example:
+        f = figure;
+        disp('This will print immediately');
+        keydown = waitforbuttonpress;
+        if (keydown == 0)
+            disp('Mouse button was pressed');
+        else
+            disp('Key was pressed');
+        end
+        close(f);
+          
+        
+    See also <a href="matlab:help ginput">ginput</a>, <a href="matlab:help gcf">gcf</a>.
+
+    Reference page in Help browser
+       <a href="matlab:doc waitforbuttonpress">doc waitforbuttonpress</a>
+
+qq
+{??? Error: <a href="matlab: opentoline('F:\temp\test_svn\matlab\NNMcont\NNMsources\NNMcont.m',581,5)">File: NNMcont.m Line: 581 Column: 5</a>
+Illegal use of reserved keyword "else".
+} 
+??? Error while evaluating uicontrol Callback
+
+qq
+qq
+get(gca)
+	ActivePositionProperty = position
+	ALim = [0 1]
+	ALimMode = auto
+	AmbientLightColor = [1 1 1]
+	Box = on
+	CameraPosition = [5000 1.2 17.3205]
+	CameraPositionMode = auto
+	CameraTarget = [5000 1.2 0]
+	CameraTargetMode = auto
+	CameraUpVector = [0 1 0]
+	CameraUpVectorMode = auto
+	CameraViewAngle = [6.60861]
+	CameraViewAngleMode = auto
+	CLim = [0 1]
+	CLimMode = auto
+	Color = [1 1 1]
+	CurrentPoint = [ (2 by 3) double array]
+	ColorOrder = [ (7 by 3) double array]
+	DataAspectRatio = [16666.7 1 3.33333]
+	DataAspectRatioMode = auto
+	DrawMode = normal
+	FontAngle = normal
+	FontName = Helvetica
+	FontSize = [11]
+	FontUnits = points
+	FontWeight = normal
+	GridLineStyle = :
+	Layer = bottom
+	LineStyleOrder = -
+	LineWidth = [0.5]
+	MinorGridLineStyle = :
+	NextPlot = add
+	OuterPosition = [-0.0374194 -0.00797546 0.903226 0.981595]
+	PlotBoxAspectRatio = [1 1 1]
+	PlotBoxAspectRatioMode = auto
+	Projection = orthographic
+	Position = [0.08 0.1 0.7 0.8]
+	TickLength = [0.01 0.025]
+	TickDir = in
+	TickDirMode = auto
+	TightInset = [0.0512153 0.0634921 0.00954861 0.010989]
+	Title = [231.009]
+	Units = normalized
+	View = [0 90]
+	XColor = [0 0 0]
+	XDir = normal
+	XGrid = off
+	XLabel = [173.007]
+	XAxisLocation = bottom
+	XLim = [1e-008 10000]
+	XLimMode = auto
+	XMinorGrid = off
+	XMinorTick = on
+	XScale = log
+	XTick = [ (1 by 7) double array]
+	XTickLabel = 
+		-8
+		-6
+		-4
+		-2
+		0 
+		2 
+		4 
+	XTickLabelMode = auto
+	XTickMode = auto
+	YColor = [0 0 0]
+	YDir = normal
+	YGrid = off
+	YLabel = [174.007]
+	YAxisLocation = left
+	YLim = [0.9 1.5]
+	YLimMode = auto
+	YMinorGrid = off
+	YMinorTick = off
+	YScale = linear
+	YTick = [ (1 by 7) double array]
+	YTickLabel = 
+		0.9
+		1  
+		1.1
+		1.2
+		1.3
+		1.4
+		1.5
+	YTickLabelMode = auto
+	YTickMode = auto
+	ZColor = [0 0 0]
+	ZDir = normal
+	ZGrid = off
+	ZLabel = [232.008]
+	ZLim = [-1 1]
+	ZLimMode = auto
+	ZMinorGrid = off
+	ZMinorTick = off
+	ZScale = linear
+	ZTick = [-1 0 1]
+	ZTickLabel = 
+	ZTickLabelMode = auto
+	ZTickMode = auto
+
+	BeingDeleted = off
+	ButtonDownFcn = 
+	Children = [ (3 by 1) double array]
+	Clipping = on
+	CreateFcn = 
+	DeleteFcn = 
+	BusyAction = queue
+	HandleVisibility = on
+	HitTest = on
+	Interruptible = on
+	Parent = [1]
+	Selected = off
+	SelectionHighlight = on
+	Tag = 
+	Type = axes
+	UIContextMenu = [225.007]
+	UserData = []
+	Visible = on
+
+
+FEPinput =
+
+   0.000101726697181   0.906870229007634
+
+
+NumMeth =
+
+NEWMARK
+
+
+TFS =
+
+   100
+
+max u0-uT/u0
+
+ans =
+
+    4.487347617376058e-014
+
+
+ans =
+
+    8.329309269242341e-010
+
+
+FEPinput =
+
+   0.364198615055563   1.385954198473282
+
+
+NumMeth =
+
+NEWMARK
+
+
+TFS =
+
+   100
+
+max u0-uT/u0
+
+ans =
+
+    8.944429386824068e-011
+
+
+ans =
+
+    9.725287529871747e-009
+
+qq
+qq
+qq
+qq
+
+ans =
+
+normal
+
+
+ans =
+
+normal
+
+qq
+qq
+qq
+
+qq
+qq
+qq
+qq
+qq
+qq
+whos
+who
+qq
+dir
+
+.                                 
+..                                
+.svn                              
+defsys.m                          
+ess.mat                           
+ess_logfile.txt                   
+mode1.mat                         
+mode1_NEW_FD.mat                  
+mode1_NEW_FD_logfile.txt          
+mode1_NEW_ODE.mat                 
+mode1_NEW_ODE_logfile.txt         
+mode1_fullT.mat                   
+mode1_fullT_logfile.txt           
+mode1_logfile.txt                 
+mode1_phasecond_vit1.mat          
+mode1_phasecond_vit1_logfile.txt  
+mode2.mat                         
+mode2_logfile.txt                 
+name_file.mat                     
+name_file_logfile.txt             
+paramdisp.m                       
+
+
+load ess.mat
+who
+
+Your variables are:
+
+Angle_beta  Floq        Prediction  Sol         
+Energy      Itnumber    Pulsation   Stepsize    
+
+Sol
+
+Sol =
+
+  1.0e+002 *
+
+  Columns 1 through 3
+
+  -0.000003535533906   0.000076928866533   0.000133495301624
+  -0.000003535533906   0.000076929625506   0.000133499267698
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 4 through 6
+
+   0.000246618636743   0.000472794348960   0.000924600834875
+   0.000246643643542   0.000472970572423   0.000925919601197
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 7 through 9
+
+   0.001823989023216   0.003007641025423   0.004543769960699
+   0.001834135855568   0.003053367288570   0.004703047317554
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 10 through 12
+
+   0.006492680686041   0.008883112380061   0.011680394525898
+   0.006965886992300   0.010130580517973   0.014633218745218
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 13 through 15
+
+   0.014774546248837   0.018042028245348   0.021436795754106
+   0.021044089270441   0.030016372510087   0.042324891653858
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 16 through 18
+
+   0.025007421908562   0.028869194721394   0.033190764679952
+   0.058987638490136   0.081385154552562   0.111381686912415
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 19 through 21
+
+   0.038198331625928   0.044164824654495   0.051337128005022
+   0.151479099115396   0.205026370932036   0.276505896403855
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 22 through 24
+
+   0.059846532359482   0.067765722987483   0.075143345588885
+   0.371912216313270   0.471599014861584   0.571326615341131
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 25 through 27
+
+   0.083554668539173   0.084115913600780   0.084413418918471
+   0.670978122875854   0.674053739255074   0.675053735482329
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 28 through 30
+
+   0.084580332219132   0.084671126573071   0.084753426965849
+   0.675360617977910   0.675435794475677   0.675440923236320
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 31 through 33
+
+   0.084840328363468   0.084912859994296   0.084981657043721
+   0.675374388604897   0.675256367852426   0.675086387556265
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 34 through 36
+
+   0.085050916410277   0.085122838269643   0.085198758341474
+   0.674852310975596   0.674535053695583   0.674108101374326
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 37 through 39
+
+   0.085279504276948   0.085365483548648   0.085456649692150
+   0.673535628385862   0.672769629403342   0.671745969107564
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 40 through 42
+
+   0.085552383437668   0.085651294457614   0.085750925852091
+   0.670379062877395   0.668554760318022   0.666120844160533
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 43 through 45
+
+   0.085847342020913   0.085934554393857   0.086003728770814
+   0.662874355923427   0.658544693041353   0.652771069908018
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 46 through 48
+
+   0.086042088475837   0.086031386822754   0.085945756569741
+   0.645072465352448   0.634807553303934   0.621121279542858
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 49 through 51
+
+   0.085748633788252   0.085388260823998   0.084790920298423
+   0.602873636489900   0.578544708452466   0.546108090783054
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 52 through 54
+
+   0.083850358504484   0.082410401283469   0.080234373218421
+   0.502862170092844   0.445205287398453   0.368336252951553
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 55 through 57
+
+   0.077032127278370   0.073425603303990   0.069383318781159
+   0.268387329795784   0.168452178589037   0.068533654134797
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 58 through 60
+
+   0.064822430930441   0.059579281853016   0.053314767595902
+  -0.031362671171421  -0.131225839854837  -0.231031179993926
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 61 through 63
+
+   0.045157442717173   0.030617012150112   0.022271647248127
+  -0.330704893626020  -0.429757912005328  -0.448217394247091
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 64 through 66
+
+   0.016337427651968   0.012395154037327   0.008298160350336
+  -0.449043767866034  -0.445769689019770  -0.440486708709536
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 67 through 69
+
+   0.003192859855901  -0.003347990569066  -0.008974220630906
+  -0.433210312306720  -0.426999745663734  -0.429187823396025
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 70 through 72
+
+  -0.011174048100933  -0.013197319824388  -0.015180788998359
+  -0.433096967471609  -0.438681768378531  -0.446337155384633
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 73 through 75
+
+  -0.017192637142406  -0.019271758670102  -0.021440682925629
+  -0.456682569267172  -0.470577481067310  -0.489182595774141
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 76 through 78
+
+  -0.023709788430990  -0.026077461178959  -0.028527086145636
+  -0.514052926173076  -0.547265918571773  -0.591593947812969
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 79 through 81
+
+  -0.031019558351846  -0.033477261567368  -0.035659287555120
+  -0.650735090989081  -0.729621209461073  -0.829598448794545
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 82 through 84
+
+  -0.037099832837452  -0.037964606965035  -0.038352794603649
+  -0.929588624914890  -1.029585240038382  -1.129584736111206
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 85 through 87
+
+  -0.038336942899899  -0.037978784958597  -0.037334433935853
+  -1.229584915166043  -1.329584402224655  -1.429582414842941
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 88 through 90
+
+  -0.036454703334476  -0.035383861676004  -0.034158670551161
+  -1.529578604213113  -1.629572909049787  -1.729565428238455
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 91 through 93
+
+  -0.032807684302721  -0.031352442058905  -0.029807709692852
+  -1.829556318603879  -1.929545740952993  -2.029533817963451
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 94 through 96
+
+  -0.028182520381294  -0.026480871295063  -0.024702133290497
+  -2.129520618184170  -2.229506145980064  -2.329490332548543
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 97 through 99
+
+  -0.022841072443907  -0.020887328929398  -0.018824112477409
+  -2.429473022125267  -2.529453946394711  -2.629432676695032
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 100 through 102
+
+  -0.016625570761167  -0.014251573557641  -0.011637139128560
+  -2.729408532498007  -2.829380395499460  -2.929346303283290
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 103 through 105
+
+  -0.008663266978084  -0.005081400632263  -0.000125290611724
+  -3.029302287550268  -3.129238787987784  -3.229120042039547
+                   0                   0                   0
+                   0                   0                   0
+
+  Column 106
+
+   0.004083738604667
+  -3.278952941992782
+                   0
+                   0
+
+whos
+  Name            Size             Bytes  Class     Attributes
+
+  Angle_beta      1x106              848  double              
+  Energy          1x106              848  double              
+  Floq            4x106             6784  double    complex   
+  Itnumber        1x106              848  double              
+  Prediction      5x106             4240  double              
+  Pulsation       1x106              848  double              
+  Sol             4x106             3392  double              
+  Stepsize        1x106              848  double              
+
+anim_spring_mass(Sol)
+Sol
+
+Sol =
+
+  1.0e+002 *
+
+  Columns 1 through 3
+
+  -0.000003535533906   0.000076928866533   0.000133495301624
+  -0.000003535533906   0.000076929625506   0.000133499267698
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 4 through 6
+
+   0.000246618636743   0.000472794348960   0.000924600834875
+   0.000246643643542   0.000472970572423   0.000925919601197
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 7 through 9
+
+   0.001823989023216   0.003007641025423   0.004543769960699
+   0.001834135855568   0.003053367288570   0.004703047317554
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 10 through 12
+
+   0.006492680686041   0.008883112380061   0.011680394525898
+   0.006965886992300   0.010130580517973   0.014633218745218
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 13 through 15
+
+   0.014774546248837   0.018042028245348   0.021436795754106
+   0.021044089270441   0.030016372510087   0.042324891653858
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 16 through 18
+
+   0.025007421908562   0.028869194721394   0.033190764679952
+   0.058987638490136   0.081385154552562   0.111381686912415
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 19 through 21
+
+   0.038198331625928   0.044164824654495   0.051337128005022
+   0.151479099115396   0.205026370932036   0.276505896403855
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 22 through 24
+
+   0.059846532359482   0.067765722987483   0.075143345588885
+   0.371912216313270   0.471599014861584   0.571326615341131
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 25 through 27
+
+   0.083554668539173   0.084115913600780   0.084413418918471
+   0.670978122875854   0.674053739255074   0.675053735482329
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 28 through 30
+
+   0.084580332219132   0.084671126573071   0.084753426965849
+   0.675360617977910   0.675435794475677   0.675440923236320
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 31 through 33
+
+   0.084840328363468   0.084912859994296   0.084981657043721
+   0.675374388604897   0.675256367852426   0.675086387556265
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 34 through 36
+
+   0.085050916410277   0.085122838269643   0.085198758341474
+   0.674852310975596   0.674535053695583   0.674108101374326
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 37 through 39
+
+   0.085279504276948   0.085365483548648   0.085456649692150
+   0.673535628385862   0.672769629403342   0.671745969107564
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 40 through 42
+
+   0.085552383437668   0.085651294457614   0.085750925852091
+   0.670379062877395   0.668554760318022   0.666120844160533
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 43 through 45
+
+   0.085847342020913   0.085934554393857   0.086003728770814
+   0.662874355923427   0.658544693041353   0.652771069908018
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 46 through 48
+
+   0.086042088475837   0.086031386822754   0.085945756569741
+   0.645072465352448   0.634807553303934   0.621121279542858
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 49 through 51
+
+   0.085748633788252   0.085388260823998   0.084790920298423
+   0.602873636489900   0.578544708452466   0.546108090783054
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 52 through 54
+
+   0.083850358504484   0.082410401283469   0.080234373218421
+   0.502862170092844   0.445205287398453   0.368336252951553
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 55 through 57
+
+   0.077032127278370   0.073425603303990   0.069383318781159
+   0.268387329795784   0.168452178589037   0.068533654134797
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 58 through 60
+
+   0.064822430930441   0.059579281853016   0.053314767595902
+  -0.031362671171421  -0.131225839854837  -0.231031179993926
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 61 through 63
+
+   0.045157442717173   0.030617012150112   0.022271647248127
+  -0.330704893626020  -0.429757912005328  -0.448217394247091
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 64 through 66
+
+   0.016337427651968   0.012395154037327   0.008298160350336
+  -0.449043767866034  -0.445769689019770  -0.440486708709536
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 67 through 69
+
+   0.003192859855901  -0.003347990569066  -0.008974220630906
+  -0.433210312306720  -0.426999745663734  -0.429187823396025
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 70 through 72
+
+  -0.011174048100933  -0.013197319824388  -0.015180788998359
+  -0.433096967471609  -0.438681768378531  -0.446337155384633
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 73 through 75
+
+  -0.017192637142406  -0.019271758670102  -0.021440682925629
+  -0.456682569267172  -0.470577481067310  -0.489182595774141
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 76 through 78
+
+  -0.023709788430990  -0.026077461178959  -0.028527086145636
+  -0.514052926173076  -0.547265918571773  -0.591593947812969
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 79 through 81
+
+  -0.031019558351846  -0.033477261567368  -0.035659287555120
+  -0.650735090989081  -0.729621209461073  -0.829598448794545
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 82 through 84
+
+  -0.037099832837452  -0.037964606965035  -0.038352794603649
+  -0.929588624914890  -1.029585240038382  -1.129584736111206
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 85 through 87
+
+  -0.038336942899899  -0.037978784958597  -0.037334433935853
+  -1.229584915166043  -1.329584402224655  -1.429582414842941
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 88 through 90
+
+  -0.036454703334476  -0.035383861676004  -0.034158670551161
+  -1.529578604213113  -1.629572909049787  -1.729565428238455
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 91 through 93
+
+  -0.032807684302721  -0.031352442058905  -0.029807709692852
+  -1.829556318603879  -1.929545740952993  -2.029533817963451
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 94 through 96
+
+  -0.028182520381294  -0.026480871295063  -0.024702133290497
+  -2.129520618184170  -2.229506145980064  -2.329490332548543
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 97 through 99
+
+  -0.022841072443907  -0.020887328929398  -0.018824112477409
+  -2.429473022125267  -2.529453946394711  -2.629432676695032
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 100 through 102
+
+  -0.016625570761167  -0.014251573557641  -0.011637139128560
+  -2.729408532498007  -2.829380395499460  -2.929346303283290
+                   0                   0                   0
+                   0                   0                   0
+
+  Columns 103 through 105
+
+  -0.008663266978084  -0.005081400632263  -0.000125290611724
+  -3.029302287550268  -3.129238787987784  -3.229120042039547
+                   0                   0                   0
+                   0                   0                   0
+
+  Column 106
+
+   0.004083738604667
+  -3.278952941992782
+                   0
+                   0
+
+figure
+plot(Sol)
+plot(Sol')
+qq
+ 
+*******************************
+Quit NNM continuation interface
+*******************************
+----------------------------------------------------------------
+Numerical algorithm for nonlinear normal mode (NNM) computation 
+Version 1.1 (2011)
+ 
+Maxime Peeters (m.peeters@ulg.ac.be)
+----------------------------------------------------------------
+ 
+System:
+
+sys = 
+
+       Klin: [2x2 double]
+       Mlin: [2x2 double]
+         nl: [1x1 NL_SPRING]
+       norm: 5.000000000000000e-004
+     vitfix: [1 2]
+     IGcont: []
+    NumMeth: 'NEWMARK'
+        TFS: 100
+      invMl: [2x2 double]
+
+ 
+      START NNM COMPUTATION with the following parameters:    
+___________________________________________________________
+
+prec =
+
+    1.000000000000000e-006
+
+
+hmax =
+
+    10
+
+
+hmin =
+
+    1.000000000000000e-006
+
+
+itopt =
+
+     3
+
+
+itmax =
+
+    10
+
+
+betamax =
+
+    90
+
+
+betamin =
+
+     0
+
+
+wlimit =
+
+     []
+
+
+h =
+
+   0.010000000000000
+
+
+mode =
+
+     1
+
+
+nintstep =
+
+   100
+
+Numerical integration: NEWMARK
+ 
+Iter         H                Ds
+0           9.749e-009
+----- cvg -----
+Pulsation (rad/s) 2.8078057
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00011136
+1           1.649e-006           0.0013044
+2           5.9192e-009           2.0446e-005
+Pulsation (rad/s) 2.8079436
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00011665
+1           1.2722e-006           0.0010817
+2           3.9395e-009           1.2407e-005
+Pulsation (rad/s) 2.8080851
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00013268
+1           1.1686e-006           0.00099802
+2           3.0595e-009           9.2085e-006
+Pulsation (rad/s) 2.8082354
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00015893
+1           1.2179e-006           0.00098414
+2           2.6841e-009           7.8779e-006
+Pulsation (rad/s) 2.8083982
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00019699
+1           1.3847e-006           0.0010138
+2           2.5671e-009           7.4267e-006
+Pulsation (rad/s) 2.8085766
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00024999
+1           1.671e-006           0.0010761
+2           2.6062e-009           7.4818e-006
+Pulsation (rad/s) 2.8087737
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00032265
+1           2.1004e-006           0.0011666
+2           2.7557e-009           7.8873e-006
+Pulsation (rad/s) 2.8089922
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00042164
+1           2.7147e-006           0.0012842
+2           2.994e-009           8.5761e-006
+Pulsation (rad/s) 2.8092351
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00055614
+1           3.5733e-006           0.0014293
+2           3.3093e-009           9.5173e-006
+Pulsation (rad/s) 2.8095052
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0007387
+1           4.7573e-006           0.001604
+2           3.6933e-009           1.0699e-005
+Pulsation (rad/s) 2.809805
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.00098639
+1           6.3696e-006           0.0018113
+2           4.1354e-009           1.2111e-005
+Pulsation (rad/s) 2.810137
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0013223
+1           8.5344e-006           0.0020554
+2           4.6209e-009           1.3734e-005
+Pulsation (rad/s) 2.8105033
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0017776
+1           1.1389e-005           0.002342
+2           5.1277e-009           1.5533e-005
+Pulsation (rad/s) 2.8109054
+------------------------- cvg ------------------------------
+The stepsize should be decreased/increased (no optimal cvg at the previous step)
+The stepsize has been increased
+Iter         H                Ds
+0           0.0023947
+1           1.5065e-005           0.002679
+2           5.6258e-009           1.7446e-005
+Pulsation (rad/s) 2.8113439
+------------------------- cvg ------------------------------
+qq
+ 
+*******************************
+Quit NNM continuation interface
+*******************************

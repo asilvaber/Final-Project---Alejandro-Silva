@@ -1,0 +1,14 @@
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwblas.lib
+libmwmathutil.lib
+/export:mexFunction
+/export:emlrtMexFcnProperties
+/export:NewtonRaphsonFR2dof
+/export:emxEnsureCapacity
+/export:emxFree_real_T
+/export:emxInit_real_T
+/export:NewtonRaphsonFR2dof_initialize
+/export:NewtonRaphsonFR2dof_terminate
+/export:NewtonRaphsonFR2dof_atexit

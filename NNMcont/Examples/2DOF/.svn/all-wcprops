@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/s3l/!svn/ver/43/Matlab/NNMcont/Examples/2DOF
+END
+mode1_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_logfile.txt
+END
+mode1_NEW_ODE_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_NEW_ODE_logfile.txt
+END
+mode2_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode2_logfile.txt
+END
+mode1_NEW_ODE.mat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_NEW_ODE.mat
+END
+mode1.mat
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1.mat
+END
+mode2.mat
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode2.mat
+END
+defsys.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/defsys.m
+END
+mode1_fullT_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_fullT_logfile.txt
+END
+mode1_fullT.mat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_fullT.mat
+END
+name_file_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/s3l/!svn/ver/43/Matlab/NNMcont/Examples/2DOF/name_file_logfile.txt
+END
+name_file.mat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/s3l/!svn/ver/43/Matlab/NNMcont/Examples/2DOF/name_file.mat
+END
+mode1_NEW_FD_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_NEW_FD_logfile.txt
+END
+mode1_NEW_FD.mat
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_NEW_FD.mat
+END
+diary
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/s3l/!svn/ver/43/Matlab/NNMcont/Examples/2DOF/diary
+END
+ess_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/ess_logfile.txt
+END
+ess.mat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/ess.mat
+END
+mode1_phasecond_vit1_logfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_phasecond_vit1_logfile.txt
+END
+paramdisp.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/paramdisp.m
+END
+mode1_phasecond_vit1.mat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/s3l/!svn/ver/28/Matlab/NNMcont/Examples/2DOF/mode1_phasecond_vit1.mat
+END
